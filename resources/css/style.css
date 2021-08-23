@@ -1,6 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    text-align: center;
 }
 
 header {
@@ -12,5 +13,10 @@ header h1 {
     margin: 24px auto;
     font-weight: normal;
     color: white;
-    text-align: center;
+    
+}
+
+header a {
+    display: block;
+    color: aquamarine;
 }
