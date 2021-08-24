@@ -4,29 +4,27 @@ body {
     text-align: center;
 }
 
-header {
-    position: relative;
-}
+
 
 h1,h2 {
     color: white;
 }
 
+
+
 header h1 {
     font-size: 50px;
     margin: 24px auto;
-    font-weight: normal;
-    
-   
+    font-weight: normal; 
 }
 
-header a, .promotion-banner a {
+a {
     display: block;
     color: aquamarine;
     padding-bottom: 24px;
 }
 
-main h2, .promotion-banner h2 {
+h2 {
     font-weight: 300;
     font-size: 42px;
 }
@@ -36,6 +34,13 @@ main p {
     font-size: 21px;
 }
 
-.promotion-banner {
-    margin-top: 24px;
+footer p {
+    color: gray;
+    text-align: right;
+    margin-right: 8px;
+   
+}
+
+footer i {
+    margin-right: 8px;
 }
